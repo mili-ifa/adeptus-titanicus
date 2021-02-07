@@ -1982,7 +1982,7 @@
     </selectionEntry>
     <selectionEntry id="a3f1-5763-016d-21d3" name="Strafing Run" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="e0f3-d1af-fa51-e08c" name="Strafing Run" hidden="false">
+        <rule id="e0f3-d1af-fa51-e08c" name="Strafing Run" publicationId="975a-00f4-pubN89746" page="79" hidden="false">
           <description>Every Strat phase. Mark a point on two board edge and draw a line between them.  everything with 2&quot; of that line takes d3 S5 hits. Counts as hitting the facing that the strafing run is coming from. </description>
         </rule>
       </rules>
@@ -2025,7 +2025,7 @@
     </selectionEntry>
     <selectionEntry id="fce9-f583-2d42-26bd" name="Hold the Centre" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="b29f-074e-3a90-9d97" name="Hold the Centre" hidden="false">
+        <rule id="b29f-074e-3a90-9d97" name="Hold the Centre" publicationId="975a-00f4-pubN89746" page="79" hidden="false">
           <description>End of Battle  Score 2Vp for each friendly titan within 12&quot; of centre. Score 5Vp if no enemy are within 12&quot; of centre.</description>
         </rule>
       </rules>
@@ -2037,9 +2037,9 @@
         <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="33df-1682-cf66-5255" name="Static Rain" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="33df-1682-cf66-5255" name="Static Rain" publicationId="975a-00f4-pubN89746" page="79" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="8b06-4144-20ce-1ec1" name="Static Rain" hidden="false">
+        <rule id="8b06-4144-20ce-1ec1" name="Static Rain" publicationId="975a-00f4-pubN89746" page="79" hidden="false">
           <description>Any Strat phase. Place a marker. Any titan within 2d10&quot; takes d3 void saves. Knights within range cannot make ion saves for entire round.
                     </description>
         </rule>
@@ -2072,7 +2072,7 @@
     </selectionEntry>
     <selectionEntry id="e862-2a40-3c8f-1fd9" name="Haywire Barrage" publicationId="975a-00f4-pubN89746" page="" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="96b1-8b12-36ba-55ad" name="Haywire Barrage" hidden="false">
+        <rule id="96b1-8b12-36ba-55ad" name="Haywire Barrage" publicationId="975a-00f4-pubN89746" page="79" hidden="false">
           <description>Any Strat phase. Place a marker and scatter d10. 6&quot; range, roll 2d6 for titans hit. Equal or greater than scale, take 1 point of critical damage to random location. If weapon, disabled. no effect if already fully damaged. Knight banners take d3S7 hits ignoring shields.</description>
         </rule>
       </rules>
@@ -2086,7 +2086,7 @@
     </selectionEntry>
     <selectionEntry id="10a5-6174-a6f3-0344" name="Penance" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="fc45-c29e-e364-578d" name="Penance" hidden="false">
+        <rule id="fc45-c29e-e364-578d" name="Penance" publicationId="975a-00f4-pubN89746" page="79" hidden="false">
           <description>End of Battle. Score 3 VP for each structurally compromised but not destroyed friendly titan. Score 3VP if the Princeps Senioris has critical damage </description>
         </rule>
       </rules>
@@ -2116,7 +2116,7 @@
     </selectionEntry>
     <selectionEntry id="a9b7-3d50-1282-ecb3" name="Titanic Decapitation" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="ed48-a252-a0ba-2d5d" name="Titanic Decapitation" hidden="false">
+        <rule id="ed48-a252-a0ba-2d5d" name="Titanic Decapitation" publicationId="975a-00f4-pubN89746" page="79" hidden="false">
           <description>any End phase. Score 5Vp if an enemy titan was destroyed due to critical damage to the head.</description>
         </rule>
       </rules>
@@ -2130,7 +2130,7 @@
     </selectionEntry>
     <selectionEntry id="eb24-c12a-7f9c-d4c1" name="Earthshaker Mines" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="5df9-8096-97b7-6685" name="Earthshaker Mines" hidden="false">
+        <rule id="5df9-8096-97b7-6685" name="Earthshaker Mines" publicationId="975a-00f4-pubN89746" page="79" hidden="false">
           <description>Play after enemy finishes a move or turn. it takes d3 S6 hits to legs, no void saves. Unit then scatters D6&quot; which can cause a collision.
                     </description>
         </rule>
@@ -2145,7 +2145,7 @@
     </selectionEntry>
     <selectionEntry id="78ac-538a-0de3-c8d9" name="No Prisoners" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="bd0b-b01d-077d-1c7e" name="No Prisoners" hidden="false">
+        <rule id="bd0b-b01d-077d-1c7e" name="No Prisoners" publicationId="975a-00f4-pubN89746" page="79" hidden="false">
           <description>End of Battle  Score 5 VP if all enemy titans are destroyed. For 2500+ games score 10VP.
                     </description>
         </rule>
@@ -2160,7 +2160,7 @@
     </selectionEntry>
     <selectionEntry id="6f6c-982d-c8ed-5fb8" name="A Quick Kill" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="6489-9a96-a7ac-d327" name="A Quick Kill" hidden="false">
+        <rule id="6489-9a96-a7ac-d327" name="A Quick Kill" publicationId="975a-00f4-pubN89746" page="79" hidden="false">
           <description>End phase of 1st or 2nd round. Score 5VP if you have destroyed a titan of at least scale 8. </description>
         </rule>
       </rules>
