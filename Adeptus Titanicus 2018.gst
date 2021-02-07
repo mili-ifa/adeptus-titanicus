@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="975a-00f4-df37-b565" name="Adeptus Titanicus 2018" revision="26" battleScribeVersion="2.03" authorName="https://github.com/BSData/adeptus-titanicus/graphs/contributors" authorContact="https://gitter.im/BSData/adeptus-titanicus" authorUrl="https://gitter.im/BSData/adeptus-titanicus" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
-    <publication id="975a-00f4-pubN65537" name="Adeptus Titanicus 2018"/>
-    <publication id="975a-00f4-pubN87630" name="Titandeath"/>
-    <publication id="975a-00f4-pubN89033" name="White Dwarf: Feb 2019"/>
-    <publication id="975a-00f4-pubN89746" name="Doom Of Molech"/>
-    <publication id="7236-e1d8-c886-f5fd" name="Adeptus Titanicus 2018 Errata v1.0"/>
-    <publication id="25e8-c9ce-9330-c53b" name="Adeptus Titanicus 2018 Errata v1.1"/>
-    <publication id="3265-f408-cc9b-bfa3" name="Shadow and Iron"/>
-    <publication id="2988-f24d-39ef-352e" name="Defense of Ryza"/>
-    <publication id="ce02-a882-fdad-dd36" name="Crucible of Retribution" publisherUrl="https://www.warhammerdigital.com/all-products/adeptus-titanicus-crucible-of-retribution-epub-2020.html"/>
-    <publication id="8566-126e-e686-9bc4" name="White Dwarf: Sep 2020"/>
+    <publication id="975a-00f4-pubN65537" name="Adeptus Titanicus 2018" shortName="AT18"/>
+    <publication id="975a-00f4-pubN87630" name="Titandeath" shortName="TD"/>
+    <publication id="975a-00f4-pubN89033" name="White Dwarf: Feb 2019" publicationDate="2019"/>
+    <publication id="975a-00f4-pubN89746" name="Doom Of Molech" shortName="DoM"/>
+    <publication id="7236-e1d8-c886-f5fd" name="Adeptus Titanicus 2018 Errata v1.0" shortName="Errata 1.0"/>
+    <publication id="25e8-c9ce-9330-c53b" name="Adeptus Titanicus 2018 Errata v1.1" shortName="Errata 1.1"/>
+    <publication id="3265-f408-cc9b-bfa3" name="Shadow and Iron" shortName="S&amp;I"/>
+    <publication id="2988-f24d-39ef-352e" name="Defense of Ryza" shortName="DoR"/>
+    <publication id="ce02-a882-fdad-dd36" name="Crucible of Retribution" shortName="CoR" publisherUrl="https://www.warhammerdigital.com/all-products/adeptus-titanicus-crucible-of-retribution-epub-2020.html"/>
+    <publication id="8566-126e-e686-9bc4" name="White Dwarf: Sep 2020" publicationDate="2020"/>
+    <publication id="9806-ab44-902d-3636" name="Downloadable AT18 Command Terminals" shortName="DCT" publicationDate="2019" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2019/05/AT-Command-Terminals.pdf">
+      <comment>Command terminals for the core set</comment>
+    </publication>
   </publications>
   <costTypes>
     <costType id="a731-e220-2d8a-41bf" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -251,7 +254,7 @@
     </categoryEntry>
     <categoryEntry id="e580-b213-3f86-c2fc" name="Agile" hidden="false">
       <rules>
-        <rule id="e1ee-cf92-788d-7083" name="Agile" hidden="false">
+        <rule id="e1ee-cf92-788d-7083" name="Agile" publicationId="9806-ab44-902d-3636" page="1" hidden="false">
           <description>Not affected by Difficult or Dangerous Terrain</description>
         </rule>
       </rules>
@@ -499,7 +502,7 @@
     </categoryEntry>
     <categoryEntry id="b1c7-cb6c-5810-e9d9" name="Lance" hidden="false">
       <rules>
-        <rule id="0034-0bec-545c-14dd" name="Lance" hidden="false">
+        <rule id="0034-0bec-545c-14dd" name="Lance" publicationId="975a-00f4-pubN89746" page="35" hidden="false">
           <description>By tradition, a Lance is made up of three Household Banners, with multiple Lances combining to form a Household force. Command of a Lance is generally granted to the most experienced noble present, the highest ranking Knight of the Household taking natural and easy command over their juniors. The commanding Knight is given the rank of High Scion, and is charged with dictating the Lance&apos;s strategic and tactical approaches. Their personality will shape the way that the Lance functions and fights, and such command is highly sought after by ambitious young Knight Scions who wish to prove their worth. Where several Lances are brought together, the most senior noble will assume the rank of Seneschal and take command of all forces in the field. Their decades of experience as both a warrior and statesman prove invaluable in melding the forces under their command into a seamless and efficient fighting force. Knight Scions are bombastic and cantankerous, and Lances drawn from different keeps are often prone to letting competition and internal politics interfere. Without the strong leadership of a respected Seneschal, a Household army risks losing much of its discipline and martial might.
                     </description>
         </rule>
@@ -2527,7 +2530,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e0-a28b-5140-3b29" type="min"/>
       </constraints>
       <rules>
-        <rule id="df55-7c19-a9fc-8be8" name="Lord Scion" hidden="false">
+        <rule id="df55-7c19-a9fc-8be8" name="Lord Scion" publicationId="9806-ab44-902d-3636" page="1" hidden="false">
           <description>While the Lord Scion is part of the Banner, add +2 to the result of any Command checks for it.</description>
         </rule>
       </rules>
@@ -2578,7 +2581,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a030-deb2-ccf8-72c5" type="max"/>
       </constraints>
       <rules>
-        <rule id="823a-c234-4f29-c04d" name="Meltagun" hidden="false">
+        <rule id="823a-c234-4f29-c04d" name="Meltagun" publicationId="9806-ab44-902d-3636" page="2" hidden="false">
           <description>When the banner is activated in the Combat phase, each Knight with a Meltagun upgrade can target an enemy unit within 3&quot;.That unit suffers a Strength 8 hit.</description>
         </rule>
       </rules>
@@ -2712,7 +2715,7 @@
         <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d8a7-9b41-99fc-155f" name="Ion Gauntlet Shield Shock Blast" hidden="false" collective="false" import="false" type="upgrade">
+    <selectionEntry id="d8a7-9b41-99fc-155f" name="Ion Gauntlet Shield Shock Blast" publicationId="9806-ab44-902d-3636" page="1" hidden="false" collective="false" import="false" type="upgrade">
       <profiles>
         <profile id="58db-d2c3-4ba4-0043" name="Ion Gauntlet Shield Shock Blast" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
           <characteristics>
@@ -4335,9 +4338,9 @@
         <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="77ba-108d-edd5-7993" name="Ionic Flare Shield" hidden="false" collective="false" import="false" type="upgrade">
+    <selectionEntry id="77ba-108d-edd5-7993" name="Ionic Flare Shield" publicationId="9806-ab44-902d-3636" page="1" hidden="false" collective="false" import="false" type="upgrade">
       <infoLinks>
-        <infoLink id="fa57-77e1-a813-ad1d" name="Ionic Flare Shield" hidden="false" targetId="4bcc-c9a8-70bd-fda4" type="rule"/>
+        <infoLink id="fa57-77e1-a813-ad1d" name="Ionic Flare Shield" publicationId="9806-ab44-902d-3636" page="1" hidden="false" targetId="4bcc-c9a8-70bd-fda4" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
@@ -13127,7 +13130,7 @@
         <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ebc6-2029-ceb3-f43b" name="Ardex Defensor Cannon" hidden="false" collective="false" import="false" type="upgrade">
+    <selectionEntry id="ebc6-2029-ceb3-f43b" name="Ardex Defensor Cannon" publicationId="9806-ab44-902d-3636" page="5" hidden="false" collective="false" import="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9a3-e790-5e42-7cfa" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb67-6f88-ca10-e8b3" type="max"/>
